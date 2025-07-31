@@ -1,5 +1,6 @@
 import React from 'react'
 import Message from './components/Message'
+import Register from './components/Register';
 
 function App() {
   let username = "Jaswanth shakthi";
@@ -7,6 +8,7 @@ function App() {
     <div>
       {/* props passing another data here */}
       <Message name={username}/>
+      <Register/>
     </div>
   )
 }
